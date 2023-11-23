@@ -24,6 +24,11 @@ header {
     align-items: center;
 }*/
 
+.greeting{
+    font-family: sans-serif;
+    color: brown;
+}
+
 header nav ul {
     display: flex;
     gap: 3.0em;
