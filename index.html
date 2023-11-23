@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prueba</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/44d0df7866.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c9b87a4bee.js" crossorigin="anonymous"></script>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="contenedor">
+        <header id="header"><a href="index.html"><i class="fa-solid fa-user-secret"></i></a>
+            <!--<input type="checkbox" id="check" />-->
+            <label for="check" class="checkbtn">
+                <i class="fa-solid fa-bars"></i>
+            </label>
+            <nav class="menu_n">
+                <ul class="lista">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="imagen3.jpg">Servicios</a></li>
+                    <li><a href="imagen1.jpg">Acerca de mi</a></li>
+                    <li><a href="imagen2.jpg">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main id="seccion-principal">
+            <section class="imagenp">
+            </section>
+            <section class="seccion-1">
+                <div class="acerca">
+                    <div class="acerca-de">
+                        <div class="imagen">
+                            <img class="imagen1" src="imagen1.jpg" alt="Imagen personal">
+                        </div>
+                        <center><h2 class="acerca-de-mi">Acerca de mi</h2>
+                        <p class="parrafo1">Bienvenido a mi página</p></center>
+                        <p class="parrafo2">esta es mi primera pagina, una prueba de que lo que estoy haciendo esta funcionando, no hay mucho contenido pero es honrado.
+                            Empecemos por mis estudios, estudio en un colegio remoto en un pueblito de caldas llamado arauca, haya curse mi bachillerato, 
+                            tambien realice un tecnico en sistemas en el mismo prueblo con el cual me gradue con honores, despues de un año me vine 
+                            a vivir a dosquebradas, en la cual pude seguir estudiendo nuevamente en el sena pero estudie un tecnologo en gestion de redes
+                            de datos, gracias a este estudio en el momento estoy trabajando, llevo ya 4 años en la empresa de telecomunicaciones la cual me 
+                            ha ayudado a desarrollar mis conocimientos en el ambito de las redes.</p>
+                        
+                    </div>
+                </div>
+            </section>
+            <div class="separador"></div>
+            <section class="seccion-2">
+                <img class="imagen2" src="imagen2.jpg" alt="Imagen de Carrusel">
+            </section> 
+            <section class="seccion-3">
+                <div class="tarjeta-container">
+                    <div class="tarjeta1">
+                        <div class="imagen-3">
+                            <img class="imagen3" src="imagen3.jpg" alt="tarjeta1">
+                    </div>
+                        <div class="titulotarjeta1">
+                            <h2 class="titulo1">Agua</h2>
+                        </div>
+                        <div class="textotarjeta1">
+                            <h3>El agua es una sustancia cuya molécula está compuesta por dos átomos de hidrógeno 
+                                y uno de oxígeno unidos por un enlace covalente.​ El término agua, generalmente, 
+                                se refiere a la sustancia en su estado líquido.</h3>
+                        </div>
+                    </div>
+                    <div class="tarjeta1">
+                        <div class="imagen-3">
+                            <img class="imagen3" src="imagen3.jpg" alt="tarjeta1">
+                    </div>
+                        <div class="titulotarjeta1">
+                            <h2 class="titulo1">Agua</h2>
+                        </div>
+                        <div class="textotarjeta1">
+                            <h3>El agua es una sustancia cuya molécula está compuesta por dos átomos de hidrógeno 
+                                y uno de oxígeno unidos por un enlace covalente.​ El término agua, generalmente, 
+                                se refiere a la sustancia en su estado líquido.</h3>
+                        </div>
+                    </div>
+                    <div class="tarjeta1">
+                        <div class="imagen-3">
+                            <img class="imagen3" src="imagen3.jpg" alt="tarjeta1">
+                    </div>
+                        <div class="titulotarjeta1">
+                            <h2 class="titulo1">Agua</h2>
+                        </div>
+                        <div class="textotarjeta1">
+                            <h3>El agua es una sustancia cuya molécula está compuesta por dos átomos de hidrógeno 
+                                y uno de oxígeno unidos por un enlace covalente.​ El término agua, generalmente, 
+                                se refiere a la sustancia en su estado líquido.</h3>
+                        </div>
+                    </div>
+                </div> 
+            </section>
+        </main>
+        <footer>
+            <div class="contenedor_footer1">
+            <h3> Referencia
+                <ul>
+                    <li><a href="https://www.google.com/">Puliendo detalles</a></li>
+                    <li>By: German</li>
+                </ul>
+            </h3>
+            </div>
+            <div class="contenedor_footer">
+            <h3 class="h3">Deja tu opinion</h3>
+            <form action="" method="get" class="formulario" id="formu">
+              <div class="form-col">
+                <label for="nombre">Nombre</label>
+                <input id="nombre" name="nombre" type="text">
+              </div>
+              <div class="form-col">
+                <label for="email">Email</label>
+                <input 
+                    id="email" 
+                    name="email" 
+                    type="email"
+                    placeholder="aguacate@gmail.com"
+                    required
+                    autocomplete="off"
+                    />
+              </div>
+              <div class="form-col">
+                <label for="mensaje">Mensaje</label>
+                <textarea name="mensaje" id="mensaje" cols="30" rows="10"></textarea>
+              </div>
+              <div class="form-col">
+                <button>Enviar</button>
+              </div>
+              <p class="alerta" id="alerta"></p>
+            </form>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

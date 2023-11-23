@@ -1,0 +1,370 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: none;
+}
+
+
+ol,
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+.header {
+    display: flex;
+    background-color: blueviolet;
+    align-items: center;
+    justify-content: space-between;
+    font-style: oblique;
+}
+
+.header a i {
+    color: rgb(65, 1, 1);
+    font-size: 2em;
+    padding: 0.5em;
+}
+
+.boton:hover{
+    background-color: green;
+}
+
+.boton{
+    background-color: rgb(93, 93, 226);
+    color: black;
+    padding: 15px 32px;
+    font-size: 14px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+/* MENU */
+#check {
+    display: none;
+}
+
+.header nav ul{
+    display: flex;
+    gap: 1.1em;
+}
+
+.checkbtn {
+    font-size: 25px;
+    color: aqua;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+.acerca-de h2{
+    color: blueviolet;
+    justify-content: center;
+    display:flex;
+    padding: 10px;
+}
+
+
+.parrafo1{
+    color: blueviolet;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    margin-left: -360px;
+}
+
+
+.seccion-principal .seccion-1 .acerca-de .parrafo2{
+    padding: 25px;
+    /*margin: 20px 100px 10px 100px;*/
+    margin-left: 270px;
+    margin-top: 62px;
+}
+
+.acerca .acerca-de .parrafo2{
+    display: flex;
+    justify-content: center;
+    margin-left: 400px;
+
+}
+
+.separador{
+    background-color: gray;
+    padding: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+
+img{
+    width: 380px;
+    height: 300px;
+    border-radius: 10% 30% 50% 70%;
+}
+
+.imagen{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    
+}
+
+.imagen2{
+    display: flex;
+    position: relative;
+    top: 0px; /* ajustar los valores para mover la imagen */
+    left: 260px;
+    padding: 13px;
+    border-radius: 10% / 50%;
+    width: 850px;
+    height: 350px;
+}
+
+.separador2{
+    padding: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.contenedor-principal{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.imagen3{
+    display: flex;
+    position: relative;
+    top: 0px; /* ajustar los valores para mover la imagen */
+    left: 100px;
+    border-radius: 30px;
+    width: 260px;
+    height: 260px;
+}
+
+.titulo1 {
+    display: flex;
+    color: blueviolet;
+    display: flex;
+    justify-content: center;
+    padding: 2px;
+    margin-left: -880px;
+}
+
+.textocontenido1{
+    display: flex;
+    justify-content: flex-start;
+    order: 3;
+    align-content: center;
+    padding-bottom: -100px;
+    padding-left: 100px;
+    margin-right: 960px;
+    text-align: start;
+}
+
+.contenedor-principal2{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.imagen4{
+    display: flex;
+    position: relative;
+    top: 0px; /* ajustar los valores para mover la imagen */
+    left: 550px;
+    border-radius: 30px;
+    width: 260px;
+    height: 260px;
+    margin-top: -633px;
+}
+
+.titulo2 {
+    display: flex;
+    color: blueviolet;
+    justify-content: center;
+    padding: 2px;
+    margin-left: 35px;
+}
+
+.textocontenido2{
+   display: flex;
+   align-content: center;
+   justify-content: center;
+   align-items: center;
+   text-align: start;
+   padding-right: 500px;
+   padding-left: 550px;
+   margin-top: 9px;
+
+}
+
+.contenedor-principal3{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.imagen5{
+    display: flex;
+    position: relative;
+    top: 0px; /* ajustar los valores para mover la imagen */
+    left: 1000px;
+    border-radius: 30px;
+    width: 260px;
+    height: 260px;
+    margin-top: -633px;
+}
+
+.titulo3{
+    display: flex;
+    color: blueviolet;
+    justify-content: end;
+    position: relative;
+    right: 180px;
+}
+
+.textocontenido3{
+    display: flex;
+    align-content: end;
+    justify-content: end;
+    align-items: end;
+    text-align: start;
+    padding-right: 50px;
+    padding-left: 1000px;
+}
+
+.pie-de{
+    display: flex;
+    background-color: gray;
+    align-items: center;
+    justify-content: space-around;
+    font-style: oblique;
+    gap: 1.1em;
+}
+
+------------------------------------------Celulares------------------------------------------
+.header nav ul{
+    font-size: none;
+    color: blueviolet;
+}
+
+@media (max-width: 767px) {
+
+
+      .header a i{
+        color: black;
+        font-size: 1.5em;
+        padding: 0.5em;
+      }
+ 
+      .acerca-de .imagen1 {
+         float: inline-start;
+         width: 160px;
+         height: 160px;
+         padding: 1px;
+     } 
+    
+      .acerca-de h2 {
+        font-size: 15px;
+        color: rgb(2, 2, 134);
+        float: inline-end;
+        right: 13px;
+       }
+      .boton {
+        font-size: 10px;
+        color: rgb(2, 2, 134);
+        padding: 2px 2px;
+        text-align: center;
+        border-radius: 3px;
+     }
+      
+      .acerca .acerca-de .parrafo1{
+        font-size: 13px;
+        color: rgb(2, 2, 134);
+        display: flex;
+        justify-content: start;
+        padding: 5px;
+        margin-left: 162px;
+    }
+
+      .acerca .acerca-de .parrafo2{
+        font-size: 15px;
+        display: flex;
+        justify-content: center;
+        margin-left: 168px;
+    
+    }
+
+      .imagen2{
+       display: flex;
+       position: relative;
+       top: 0px; /* ajustar los valores para mover la imagen */
+       left: 0px;
+       padding: 13px;
+       border-radius: 10% / 50%;
+       width: 360px;
+       height: 160px;
+      }
+     
+      .imagen3{
+        display: flex;
+        position: relative;
+        top: 0px; /* ajustar los valores para mover la imagen */
+        left: 120px;
+        border-radius: 30px;
+        width: 160px;
+        height: 160px;
+      }
+   
+     .titulo2{
+        display: flex;
+        position: relative;
+        color: rgb(2, 2, 134);
+        justify-content: center;
+
+     }
+
+     .checkbtn{
+        display: block;
+     }
+
+     #encabezado ul {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: red;
+        text-align: center;
+
+        top: 80px;
+        left: 100%;
+        transition: all 0.5s;
+     }
+
+     #check:checked ~ ul {
+        left: 0;
+        display: block;
+     }
+
+     #encabezado nav ul li {
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+     }
+
+     #encabezado nav ul li a{
+        font-size: 20px;
+     }
+
+     #check:checked ~ .checkbtn {
+        color: rgb(87, 11, 11);
+     }
+
+}
+
+@media (max-width: 768px) {
+
+}
+
+

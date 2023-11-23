@@ -1,0 +1,441 @@
+/*CSS-Body*/
+body {
+    margin: 0px;
+    border: 0px; 
+}
+
+/*End-CSS-Body*/
+
+ul {
+    list-style: none;
+}
+
+/*CSS-Header*/
+
+header {
+    background-color: rgb(146, 59, 228);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/*header nav {
+    display: flex;
+    align-items: center;
+}*/
+
+header nav ul {
+    display: flex;
+    gap: 3.0em;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+header a {
+    display: flex;
+    justify-content: flex-start; 
+    text-decoration: none;
+    color: black;
+}
+
+header i {
+    color: wheat;
+}
+
+/*#check {
+    display: none; /*Mostrar el cuadro de verificación
+}*/
+
+.checkbtn {
+    display: none; /*Mostrar el icono de menu*/
+    cursor: pointer;
+    color: wheat;
+    float: right;
+    margin-left: 330px;
+    margin-right: 10px;
+    line-height: 20px;
+    font-size: 20px;
+}
+
+/*End-CSS-Header*/
+
+/*CSS-Main*/
+
+/*.imagenp {
+    background-image: url(/imagen1.jpg);
+    height: 600px;
+    width: 500px;
+    float: left;
+    background-size: cover;
+}*/
+
+.seccion1 .acerca .acerca-de {
+    display: inline;
+}
+
+.imagen1 {
+    height: 250px;
+    max-width: 50%;
+    width: 250px;
+    border-radius: 25% 10%;
+    margin-left: 10px;
+    float: left;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-family: sans-serif;
+}
+
+.seccion-1 .acerca .acerca-de .parrafo1 {
+    margin-left: 270px;
+    font-family: sans-serif;
+}
+
+.seccion-1 .acerca .acerca-de .parrafo2 {
+    padding: 25px;
+    /*margin: 20px 100px 10px 100px;*/
+    margin-left: 270px;
+    margin-top: 62px;
+    font-family: sans-serif;
+}
+
+.seccion-2 {
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    padding: 20px;
+    margin: 5px;
+}
+
+.imagen2 {
+    height: 400px;
+    width: 750px;
+    border-radius: 10% / 50%;
+    overflow: clip;
+}
+
+
+.separador {
+    background-color: rgb(172, 106, 235);
+    padding: 25px;
+    margin-top: 55px;
+    margin-bottom: 25px;
+}
+
+.tarjeta-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.tarjeta1 {
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 10px;
+    height: 520px;
+    width: 220px;
+}
+
+.imagen-3 .imagen3 {
+    border-radius: 10px;
+    height: 200px;
+    width: 250px;
+}
+
+.seccion-3 .tarjeta1 .titulotarjeta1 {
+    /*box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    align-content: center;
+    position: relative;*/
+    height: 55px;
+    /*width: 120px;*/
+}
+
+.seccion-3 .tarjeta1 .titulotarjeta1 .titulo1 {
+    top: -5px;
+    left: -134px;
+}
+
+.seccion-3 .tarjeta1 .textotarjeta1 {
+    /*position: relative;*/
+    font-family: sans-serif;
+    margin: 5px;
+    /*display: flex;
+    align-items: center;
+    align-content: center;*/
+    text-align: start;
+}
+/*End-CSS-Main*/
+
+/*CSS-Footer*/
+footer {
+    background-color: rgb(199, 158, 238);
+    font-family: monospace;
+    font-size: 20px;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+}
+
+.contenedor_footer1 {
+    display: flex;
+    flex-direction: column;
+    margin:10px;
+}
+
+.contenedor_footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.h3 { 
+    padding: 5px;
+    border: 1px solid green;
+}
+
+
+/* Formulario */
+
+.formulario {
+    border: 1px solid green;
+    border-radius: 5px;
+    width: 66%;
+    padding: 50px;
+    margin: 30px 0 40px 0;
+}
+
+.form-col {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.form-col input[type="text"] {
+    background-color: wheat;
+    border: 0;
+    border-radius: 5px;
+    width: 100%;
+    padding: 7px;
+}
+
+.form-col input[type="email"] {
+    background-color: wheat;
+    border: 0;
+    border-radius: 5px;
+    width: 100%;
+    padding: 7px;
+}
+
+.form-col textarea {
+    background-color: wheat;
+    font-family: "Helvetica", "Arial", sans-serif;
+    font-size: 14px;
+    border: 0;
+    border-radius: 5px;
+    resize: none;
+    min-height: 200px;
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 7px;
+}
+
+.form-col label {
+    margin-bottom: 3px;
+    font-weight: bold;
+}
+
+.form-col button {
+    font-size: 16px;
+    font-weight: bold;
+    color: green;
+    background-color: wheat;
+    border: none;
+    border-radius: 3px;
+    padding: 7px 40px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.form-col button:hover {
+    background-color: rgb(248, 247, 246);
+}
+
+.form-col button:active {
+    background-color: rgb(252, 250, 248);
+}
+
+/*End-CSS-Footer*/
+
+/*CSS-MediaQ*/
+@media ( max-width: 768px ) {
+    header {
+        display: flex;
+        position: fixed;
+        top: 0px;
+        padding: 3.5px;
+        width: 100%;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    #header a i {
+        float: left;
+        left: 10px;
+    }
+
+    .checkbtn {
+        display: block;
+    }
+
+    .menu_n {
+        height: 0vh;
+        position: absolute;
+        top: 25px;
+        left: 0;
+        width: 100%;
+        background: gray;
+        text-align: center;
+        transition: all 0.5s;
+        overflow: hidden;
+        font-style: italic;
+    }
+
+    .menu_n .lista {
+        float: none;
+        display: block;
+        width: 140px;
+        padding: 0;
+        margin: 0 auto;
+        font-weight: bold;
+    }
+
+    .menu_n.active {
+        height: 100vh;
+    }   
+
+    #header nav ul li {
+        display: inline-block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+
+    #header nav ul li a {
+        font-size: 20px;
+    }
+
+    /*#check:checked ~ ul {
+        left: 0;
+        display: block;
+    }*/
+
+    
+
+    #seccion-principal .seccion-1 .acerca .acerca-de .imagen {
+        display: flex;
+        margin-top: 30px
+    }
+
+    .imagen1 {
+        width: 97%;
+        max-width: 100%;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    h2 {
+        margin-top: 10px;
+        margin-left: 0px;
+    }
+
+    .seccion-1 .acerca .acerca-de .parrafo1 {
+        margin-top: 10px;
+        margin-left: 10px;
+        text-align: start;
+    }
+
+    .seccion-1 .acerca .acerca-de .parrafo2 {
+        padding: 0px;
+        margin-top: 0px;
+        margin-left: 10px;
+    }
+
+    .seccion-2 {
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .imagen2 {
+        width: 97%;
+        height: 250px;
+        margin-left: 10px;
+        margin-right: 10px;
+        border-radius: 10px;
+    }
+
+    .tarjeta-container {
+        
+        padding: 10px;
+    }
+
+    .tarjeta1 {
+        padding-left: 75px;
+        padding-right: 75px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        display: flex;
+        align-items: center;
+        align-content: center;
+        flex-direction: column;
+        justify-content: center;
+        order: 3;
+        row-gap: 5px;
+        height: 500px;
+        width: 300px;
+    }
+    
+    .imagen-3 .imagen3 {
+        box-sizing: border-box;
+        float: left;
+        border-radius: 10px;
+        height: 170px;
+        width: 190px;
+        object-position: 50% 50%;
+    }
+
+    .seccion-3 .tarjeta1 .titulotarjeta1 {
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        order: 1;
+    }
+
+    .seccion-3 .tarjeta1 .titulotarjeta1 .titulo1 {
+        top: 5px;
+        left: 0px;
+        text-align: center;
+    }
+
+    .seccion-3 .tarjeta1 .textotarjeta1 {
+        order: 2;
+        font-family: monospace;
+        margin: 5px;
+        align-items: center;
+        align-content: center;
+        text-align: center;
+    }
+}
+/*End-CSS-MediaQ*/
